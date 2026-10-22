@@ -1,0 +1,10 @@
+python3 benchmark.py
+read_heavy_90_5_5      threads=1: pthread=0.18334s custom=0.18363s custom/pthread=1.00x
+read_heavy_90_5_5      threads=2: pthread=0.54589s custom=0.39153s custom/pthread=0.72x
+read_heavy_90_5_5      threads=4: pthread=0.61377s custom=0.80741s custom/pthread=1.32x
+read_heavy_90_5_5      threads=8: pthread=0.66151s custom=1.51667s custom/pthread=2.29x
+balanced_50_25_25      threads=1: pthread=1.11617s custom=1.10403s custom/pthread=0.99x
+balanced_50_25_25      threads=2: pthread=3.35041s custom=2.51729s custom/pthread=0.75x
+balanced_50_25_25      threads=4: pthread=3.35970s custom=3.72000s custom/pthread=1.11x
+balanced_50_25_25      threads=8: pthread=3.93260s custom=5.35469s custom/pthread=1.36x
+Full raw results: /mnt/c/Users/n_pis/HSE/Lab_rwLock/results.csv
